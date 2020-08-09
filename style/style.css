@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-repeat: no-repeat;
+    margin-top: 0;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+h2{
+    display: flex;
+    position: absolute;
+    float:left;
+    line-height: 4.3vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    color: #fff;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-shadow: red 0 0 2px;
+}
+.search{
+    display: flex;    
+    background: rgb(2, 2, 2);
+}
+.menu {
+    width: 100vw;
+    height: 4.3vw;
+    position: absolute;
+    background: rgba(77, 77, 77, 0.7);
+}
+
+.menu_links_top ul {
+    list-style-type: none;
+}
+.menu_links_top ul li {
+    display: inline;
+}
+
+.menu_links_top ul li a {
+
+    float:left;
+    line-height: 4.3vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    color: #fff;
+    font-size: 1.4vw;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-shadow: red 0 0 2px;
+     
+  
+}
+.menu_links_top ul li a:hover {
+      
+      background: #0e7cda;   /* old browsers */
+      border-radius: 3vw 3vw 3vw 3vw;
+      transition: all 0.3s ease;
+}
+
+
+.menu_links_top {
+    height: 6vw;
+    float: left;
+    margin-left: 19vw;
+}
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+
+body {
+    background: #DDD;
+   }
+#wrap {
+  margin: 50px 100px;
+  display: inline-block;
+  position: relative;
+  height: 2vw;
+  margin-top: 0vw;
+  float: right;
+  padding: 0;
+  z-index: 600;
+  position: relative;
+}
+
+input[type="text"] {
+  height: 3vw;
+  font-size: 2vw;
+  display: inline-block;
+  font-family: "Lato";
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 3px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 30;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid #fff;
+}
+
+input[type="text"]:focus {
+  width: 10vw;
+  z-index: 1;
+  border-bottom: 1px solid #fff;
+  cursor: text;
+}
+input[type="submit"] {
+  margin-top: 0.1vw;
+  height: 3vw;
+  width: 3vw;
+  display: inline-block;
+  color:red;
+  float: right;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
+  text-indent: -10000px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.slide{
+    display: flex;
+    position: absolute;
+    margin-top: 4vw;
+    height: 70%;
+    width: 100%;
+   }
+.slide img{
+
+margin-left: 19vw;
+}
+
+
+
+.MenuProduct{
+    margin-top: 40vw;
+    position: absolute;
+
+  display: flex;
+  height: 1vh;
+  width: 100vw;
+}
+
+.MenuProduct p{
+  font-size: 2vw;
+  margin-left: 8vw;
+  margin-top: 1vw;
+    display: flex;
+  align-items: center;
+  
+
+  font-family: Georgia;
+}
+
+.nameProd{
+  overflow: hidden;
+  text-shadow: 0 0 blue,
+               0 0 yellowgreen,
+               0 0 skyblue;
+  color: transparent;
+  transition: all 1s;
+  }
+  .nameProd:hover {
+    text-shadow: -25vw 0 tomato,
+                 25vw 0 yellowgreen,
+                 0 0 skyblue;
+
+    }
+
+
+.InfoProduct{
+   font-size: 1vw;
+  font-weight: normal;
+  cursor: pointer;
+  color: white;
+
+
+    font: 2em Arial, sans-serif;
+    text-shadow: 1px 1px white,
+                 white 0 0 2px;
+  color: #333;
+  transition: all 1s;
+  }
+  .InfoProduct:hover {
+    text-shadow: 1px 1px white,
+                 2px 2px white;
+    color: crimson;
+    }
+
+.Product{
+display: flex;
+flex-direction: row;
+ height: 25vh;
+ width: 17vw;
+ border: 2px solid #ff0000;
+ margin-left: 6vw;
+ margin-top: 2vw;
+
+}
+
+.Product {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+.Product:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
+ }
+.iconAdd{
+  height: 5vh;
+  width: 3vw;
+  margin-left:23vw;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: -2vw;
+
+   -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+}
+.iconAdd:hover{
+  -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+}
+
+.block{
+  height: 1vh;
+}
+@-webkit-keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+.information{ 
+
+display: flex;
+position: absolute;
+margin-top: 72vw; 
+flex-direction: row; 
+} 
+
+.information .about{ 
+display: flex; 
+flex-direction: row; 
+color: black; 
+width: 70%; 
+margin-top: 20px; 
+background: grey; 
+} 
+
+.information .about div{ 
+width: 50%; 
+margin: 30px; 
+}
+.get {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 73vw;
+    margin-left: 75vw;
+}
+.get h3{
+    margin-left: 5vw;
+}
+a.button7 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+a.button7:hover { background: rgb(53, 167, 110); }
+a.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.foot {
+
+    display: flex;
+    position: absolute;
+    margin-top: 90vw;
+    flex-direction: column;
+}
+
+.foot hr{
+width: 100vw;
+}
+
+
+
